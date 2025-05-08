@@ -10,20 +10,21 @@ void selection_sort(int list_size, int num_list[]) {
         for(int j = i; j < list_size; j++) {
             
             if(num_list[j] < num_list[minimum]) {
-                int temp = num_list[minimum];
-                num_list[minimum] = num_list[j];
-                num_list[j] = temp;
+                minimum = num_list[j];
             }
+            
+            int temp = num_list[minimum];
+            num_list[minimum] = num_list[j];
+            num_list[j] = temp;
         } 
     }
-
 }
 
 int main() {
-    int num_list[3] = {3, 2, 1};
-    selection_sort(3, num_list);
-
-    for(int i = 0; i < size(num_list); i++) {
+    int num_list[5] = {5, 4, 3, 2, 1};
+    selection_sort(5, num_list);
+    
+    for(int i = 0; i < 5; i++) {
         cout << num_list[i] << " ";
     }
 
