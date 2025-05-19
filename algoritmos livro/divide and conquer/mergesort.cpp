@@ -52,12 +52,22 @@ void mergeSort(vector<int>& list_a) {
 }
 
 int main() {
-    vector<int> list_num = {8, 3, 2, 9, 7, 1, 5, 4};
+    
+    int list_size;
+    cin >> list_size;
+    
+    vector<int> list_num(list_size);
+    
+    int number;
+    for(int i = 0; i < list_size; i++) {
+        cin >> number;
+        list_num[i] = number; 
+    }
+
     mergeSort(list_num);
 
-
     for(int i = 0; i < list_num.size(); i++) {
-        cout << list_num[i] << " ";
+        cout << list_num[i] << endl;
     }
 
     cout << endl;
