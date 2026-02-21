@@ -1,6 +1,6 @@
-# Programação Competitiva e Algoritmos - CIn/UFPE
+Algoritmos - CIn/UFPE
 
-Este repositório contém minhas soluções de programação competitiva e implementações de algoritmos estudados durante a graduação no CIn/UFPE.
+Este repositório contém minhas soluções de desafios de programação com implementações de algoritmos estudados durante a graduação no CIn/UFPE.
 
 ## 📂 Conteúdo
 
@@ -13,10 +13,10 @@ Principais temas:
 - Algoritmos de Ordenação e Busca
 - AVL e Heaps
 - Busca em Grafos
-- Menor Caminho em Grafos
+- Caminhos Mínimos em Grafos
 - MST
 - Backtracking
-- Programação dinâmica
+- Programação Dinâmica
 
 ### Algoritmos da Faculdade
 Implementações feitas nas disciplinas:
