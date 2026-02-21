@@ -23,7 +23,7 @@ Implementações feitas nas disciplinas:
 - Estruturas de dados
 - Algoritmos
 
-## Linguagen utilizadas
+## Linguagem utilizadas
 - C++
 
 ## Objetivo
