@@ -1,0 +1,20 @@
+Today is a beautiful day in Rio de Janeiro and all of the students at IME (known as the Institute of Missions that are Enthralling) decide to go enjoy the beach that's right in front of the institute, all except for Kauã... Kauã needs to stay at IME to complete his mission of safeguarding the university. Although he's not allowed to leave, he decides he wants to sneak out to have fun with his friends, but obviously he doesn't want to get caught! You sympathize with this situation and decide to help him develop an escape plan.
+
+Kauã reaches the main entrance hall and is greeted with this large hallway containing a number of guards watching the place. Since it's quite the boring night and they think that the institute is safe, the guards remain static throughout the entire night, looking solely in one direction. After carefully analyzing their positions, Kauã hands to you a map of the main entrance hall. It consists of a grid with dimensions n×mn×m, in which Kauã starts at position (1,1)(1,1) and has to get to the main entrance itself, at (n,m)(n,m). The guards will be situated in other positions of the grid, however, due to some restrictions, there's never someone at (1,1)(1,1) nor at (n,m)(n,m).
+
+Kauã asks you to help him determine whether or not he's able to traverse the main entrance hall. If he's able to, he asks you to show in the map what's the smallest path he's able to take.
+The picture depicts where Kauã needs to traverse.
+Input
+
+The first line of the input consists of two integers nn, mm (1≤n,m≤2×103)(1≤n,m≤2×103) — the dimensions of the main entrance hall.
+
+The next nn lines will contain a string of mm characters (ai,1,ai,2,...,ai,m)(ai,1​,ai,2​,...,ai,m​), indicating the layout of the ithith line.
+
+ai,jai,j​ can be either ., >, v, <, ^ — indicating what's present on that position.
+
+    If ai,j=ai,j​= ., then the position is empty.
+    If ai,j=ai,j​= >, v, <, ^, then the position contains a guard that is facing east, south, west, and north respectively. The guard's line of sight is one square wide and extends straight in the direction the person is facing, blocked only by another person. 
+
+Output
+
+If it is impossible to reach the main entrance itself, then print out −1−1. Otherwise, print out the grid once more, substituting the positions Kauã is supposed to pass through with an X. This should be the shortest path, and if there are multiple shortest paths, you can print out any of them.

@@ -1,0 +1,7 @@
+Pedro inventou o seguinte desafio e precisa da sua ajuda para resolvê-lo. Dada uma lista de números inteiros, encontre o inteiro mais próximo de um dado número.
+Input
+
+A entrada consiste em um único caso. A primeira linha contém 0 < n ≤ 500.000 a quantidade de números inteiros na lista. Em cada uma das próximas n linhas, tem-se um número inteiro (32 bits). Em seguida, tem-se 0 < q ≤ 500.000 a quantidade de perguntas (queries) que serão feitas. Em cada uma das próximas q linhas, tem-se um número inteiro (32 bits) para o qual se deseja encontrar o inteiro mais próximo na lista.
+Output
+
+Para cada query, imprima o inteiro mais próximo na lista. Havendo dois números equidistantes, imprima o menor deles.

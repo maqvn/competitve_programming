@@ -1,0 +1,7 @@
+A prova de Algoritmos está chegando! Como todos sabem, é (quase?) certo cair uma questão sobre Árvores AVL. Lupe tem estudado e praticado bastante. Porém, ele não sabe se as respostas dele estão corretas e agora precisa da sua ajuda.
+Input
+
+A entrada consiste em um único caso. A primeira linha contém 0 < n ≤ 1.000 a quantidade de números inteiros (de 32 bits) que devem ser inseridos na AVL. Na segunda linha, são listados os n números separados por espaço.
+Output
+
+Para cada inserção, indique se houve rotação. Em caso positivo, indique o tipo de rotação. Após processar todas as inserções, imprima as chaves da AVL, separadas por espaço, de acordo com travessias em pré-ordem, em-ordem e pós-ordem.

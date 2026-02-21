@@ -1,0 +1,7 @@
+As férias escolares estão chegando. Já pensando no que fazer durante estes meses, Lupe inventou o seguinte jogo. Secretamente, cada jogador escolhe um número não-negativo. Ganha aquele que escolher o menor número que seja único (que não tenha sido escolhido por algum outro jogador). Como muitas (muitas!) pessoas resolveram jogar, Lupe agora precisa da sua ajuda para determinar o vencedor (caso ele exista).
+Input
+
+A entrada consiste em um único caso. A primeira linha contém 0 < n ≤ 5.000.000 a quantidade de jogadores. Na segunda linha, são listados, separados por espaços, os n números escolhidos. Cada número secretamente escolhido é maior ou igual a 0 e menor ou igual a 1.000.000.000.
+Output
+
+Imprima o número escolhido pelo vencedor. Se não houver vencedor, imprima -1.

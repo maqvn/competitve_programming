@@ -1,0 +1,7 @@
+As férias escolares acabaram! Para animar a volta às aulas, a escola de LuPe permitiu que os estudantes levem brinquedos, somente hoje, desde que caibam dentro da bolsa. Ainda se acostumando com o retorno às aulas, LuPe acordou tarde e tem pouco tempo para tomar uma decisão. Ele pediu a sua ajuda para determinar quais brinquedos ele deve levar de forma a maximizar a sua felicidade, mas sem extrapolar a capacidade da sua bolsa.
+Input
+
+A entrada consiste em um único caso. Na primeira linha, têm-se dois números inteiros: 0 < n ≤ 30 e 0 < W ≤ 20, representando a quantidade de brinquedos de LuPe e a capacidade da sua bolsa em kg, respectivamente. Nas próximas n-linhas, têm-se três valores: 0 < |si| ≤ 10, 0 < wi ≤ 6 e 0 < fi ≤ 100, uma string si com o nome do i-ésimo brinquedo, um natural inteiro wi com o peso em kg do i-ésimo brinquedo e um natural inteiro fi com a felicidade que LuPe vai sentir ao levar o i-ésimo brinquedo para a escola.
+Output
+
+Imprima a felicidade máxima de LuPe nessa volta às aulas, seguida dos nomes dos brinquedos selecionados, separados por vírgula. Liste os nomes dos brinquedos selecionados na ordem em que eles aparecem na entrada. A solução é única; ou seja, só existe uma combinação de brinquedos que maximiza a felicidade de LuPe.

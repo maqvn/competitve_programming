@@ -1,0 +1,7 @@
+Uma empreiteira foi contratada para realizar um conjunto de obras que conectem diversas cidades de uma dada região. Determine o custo mínimo das obras de forma que todas as cidades fiquem conectadas.
+Input
+
+A entrada consiste em um único caso, que inicia com dois números: a quantidade de cidades c > 0 e a quantidade de obras que podem ser realizadas o ≥ 0. As cidades são representadas por números no intervalo [0, c). Em cada uma das próximas o-linhas, têm-se três números 0 ≤ i, j < c e 0 < p ≤ 100 indicando que é possível realizar uma obra de preço p conectando as cidades i e j; ou seja, permitindo as pessoas se deslocarem de i para j, assim como de j para i. Sempre existe um conjunto de obras que permitem conectar todas as cidades da região.
+Output
+
+Imprima o custo mínimo das obras de forma que todas as cidades da região fiquem conectadas. O tipo inteiro (32 bits) tem precisão suficiente para armazenar esse custo.

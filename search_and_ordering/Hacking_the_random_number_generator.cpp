@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 void merge(vector<int>& list_b, vector<int>& list_c, vector<int>& list_a) {    
@@ -51,26 +52,56 @@ void mergeSort(vector<int>& list_a) {
 
 }
 
+bool verifyExistenceInList(vector<int>& numList, int pair) {
+    int start = 0;
+    int mid = numList.size() / 2;
+    int end = numList.size() - 1;
+
+    while(start <= end) {
+        if(numList[mid] == pair) {
+            return true;
+        }
+        else if(pair < numList[mid]) {
+            end = mid - 1;
+            mid = end / 2;
+        }
+        else {
+            start = mid + 1;
+            mid = (end + start) / 2;
+        }
+    }
+
+    return false;
+}
+
+int numberOfPairs(vector<int> numList, int k) {
+    int numberOfPairs = 0;
+
+    for(int i = 0; i < numList.size(); i++) {
+        if(verifyExistenceInList(numList, numList[i] - k)) {
+            numberOfPairs ++;
+        }
+    }
+
+    return numberOfPairs;
+}
+
 int main() {
-    
-    int list_size;
-    cin >> list_size;
-    
-    vector<int> list_num(list_size);
-    
-    int number;
-    for(int i = 0; i < list_size; i++) {
-        cin >> number;
-        list_num[i] = number; 
+    int numberOfElements;
+    int k;
+
+    cin >> numberOfElements;
+    cin >> k;
+
+    vector<int> numList(numberOfElements);
+
+    for(int i = 0; i < numberOfElements; i++) {
+        cin >> numList[i];
     }
 
-    mergeSort(list_num);
+    mergeSort(numList);
 
-    for(int i = 0; i < list_num.size(); i++) {
-        cout << list_num[i] << endl;
-    }
-
-    cout << endl;
+    cout << numberOfPairs(numList, k) << endl;
 
     return 0;
 }
