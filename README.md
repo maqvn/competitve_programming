@@ -2,9 +2,9 @@
 
 Este repositório contém minhas soluções de desafios de programação com implementações de algoritmos estudados durante a graduação no CIn/UFPE.
 
-## 📂 Conteúdo
+## Conteúdo
 
-### 🏆 Programação Competitiva
+### Programação Competitiva
 - Soluções de listas e competições
 - Problemas resolvidos em plataformas online
 - Treinos para maratonas
@@ -26,5 +26,5 @@ Implementações feitas nas disciplinas:
 ## Linguagen utilizadas
 - C++
 
-## 🎯 Objetivo
+## Objetivo
 Organizar e registrar minha evolução em algoritmos e programação competitiva.
