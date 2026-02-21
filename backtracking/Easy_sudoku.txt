@@ -1,0 +1,7 @@
+You are to solve the classic 9×9 sudoku problem.
+Input
+
+The first line contains only one number - number of test cases (more than 1 and less then 15). Then the test cases are given. Each of them is given by 81 numbers (from 0 to 9) separated by single white space (new line after each 9th number). Zero means that it is to solve by your program.
+Output
+
+In case of there does not exist the solution write "No solution". If there exist 81 number being the solution of sudoku problem, you have to write all those 81 numbers (separated like in input). 

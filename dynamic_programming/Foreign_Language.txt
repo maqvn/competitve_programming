@@ -1,0 +1,17 @@
+Pedro Vieira finally got accepted to his internship at AMAN (commonly referred to as the Academy of Many Amazing Netizens), and unfortunately for him, they speak a really strange language there. However, he only discovered this fact after etching a commemorative phrase onto a plaque, and now he wants to modify it into the strange language spoken at AMAN.
+
+Vieira thinks that it'll be too much of a hassle to make a new plaque from scratch, so he asks for help from a friend who's able to perform certain modifications to the plaque. This friend is able to (don't ask how, though) insert letters anywhere in the phrase, remove them or simply modify them, each having their own respective cost.
+
+Knowing that spaces are a non-issue, given the original phrase and the one in the strange language, Pedro Vieira wants to find out what's the minimum cost in order for this change to be done.
+Input
+
+The first line of the input contains 5 integers n,m,a,b,cn,m,a,b,c (1≤n,m≤2×103)(1≤n,m≤2×103), (1≤a,b,c≤109)(1≤a,b,c≤109) — the length of the phrase on the plaque, the length of the phrase in the strange language, the cost of inserting letters, the cost of removing them and the cost of modifying them, respectively.
+
+The next line contains string ss (∣s∣=n)(∣s∣=n) — the phrase on the plaque.
+
+The next line contains string tt (∣t∣=m)(∣t∣=m) — the phrase in the strange language.
+
+Both strings contain letters of the English alphabet and note that capital and lowercase letters are considered different.
+Output
+
+Output a single integer — the minimum cost of correcting the plaque.

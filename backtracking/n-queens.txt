@@ -1,0 +1,7 @@
+O problema das n-rainhas consiste em posicionar n rainhas em um tabuleiro de xadrez n × n de forma que não exista uma rainha sob o ataque de outra rainha. No xadrez, a rainha ataca em qualquer direção (horizontal, vertical e diagonal) por quantas casa quiser, porém sem poder saltar outras peças do jogo. Dado n, encontre a quantidade de soluções distintas do problema.
+Input
+
+A entrada consiste em um único número 1 ≤ n ≤ 11.
+Output
+
+Imprima a quantidade de soluções distintas do problema das n-rainhas.

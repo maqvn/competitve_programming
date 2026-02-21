@@ -1,0 +1,28 @@
+There are nn people in the programming contest chat. Chat participants are ordered by activity, but each person sees himself at the top of the list.
+
+For example, there are 44 participants in the chat, and their order is [2,3,1,4][2,3,1,4]. Then
+
+    11-st user sees the order [1,2,3,4][1,2,3,4].
+    22-nd user sees the order [2,3,1,4][2,3,1,4].
+    33-rd user sees the order [3,2,1,4][3,2,1,4].
+    44-th user sees the order [4,2,3,1][4,2,3,1]. 
+
+kk people posted screenshots in the chat, which show the order of participants shown to this user. The screenshots were taken within a short period of time, and the order of participants has not changed.
+
+Your task is to determine whether there is a certain order that all screenshots correspond to.
+Input
+
+The first line contains a single integer tt (1≤t≤1041≤t≤104) — the number of input test cases. The descriptions of test cases follow.
+
+The first line of the description of each test case contains two integers nn and kk (1≤k≤n≤2⋅105,n⋅k≤2⋅1051≤k≤n≤2⋅105,n⋅k≤2⋅105) — the number of chat participants and the number of participants who posted screenshots.
+
+The following kk lines contain descriptions of screenshots posted by the participants.
+
+The ii-th row contains nn integers aijaij​ each (1≤aij≤n1≤aij​≤n, all aijaij​ are different) — the order of participants shown to the participant ai0ai0​, where ai0ai0​ — the author of the screenshot. You can show that in the screenshot description it will always be at the top of the list.
+
+It is guaranteed that the sum of n⋅kn⋅k for all test cases does not exceed 2⋅1052⋅105. It is also guaranteed that all the authors of the screenshots are different.
+Output
+
+Output tt lines, each of which is the answer to the corresponding test case. As an answer, output "YES" if there exists at least one order of participants, under which all kk screenshots could have been obtained. Otherwise, output "NO".
+
+You can output the answer in any case (upper or lower). For example, the strings "yEs", "yes", "Yes", and "YES" will be recognized as positive responses.

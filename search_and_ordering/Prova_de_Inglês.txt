@@ -1,0 +1,7 @@
+Na próxima semana, Lucas terá prova de Inglês. Na preparação, ele tem lido e estudado muito, buscando aumentar o seu vocabulário. Agora, Lucas precisa da sua ajuda para avaliar como está o conhecimento dele.
+Input
+
+A entrada consiste em um único caso. A primeira linha contém 0 < p ≤ 75.000 a quantidade de palavras no dicionário. Em cada uma das próximas p linhas, tem-se uma palavra do dicionário. Cada palavra é formada exclusivamente por não mais do que 40 letras. As palavras serão listadas em ordem alfabética. Não há palavras repetidas no dicionário. Em seguida, tem-se 0 < q ≤ 70.000 a quantidade de palavras que Lucas tentará acertar no dicionário. Para cada acerto, ele ganha um ponto. Em cada uma das próximas q linhas, tem-se uma palavra dita por Lucas (também com não mais do que 40 letras). Lucas tem uma ótima memória; ele não tentará acertar a mesma palavra mais de uma vez.
+Output
+
+Imprima a quantidade de pontos (acertos) que Lucas ganhou.

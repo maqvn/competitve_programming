@@ -1,0 +1,7 @@
+Seja k um inteiro não-negativo, e A um conjunto com n inteiros positivos, conte quantos subconjuntos A' de A existem tal que a soma dos elementos de A' seja igual a k.
+Input
+
+A entrada inicia com dois números inteiros 0 ≤ n ≤  25 e 0 ≤ k ≤ 1.000.000. Na linha seguinte, são listados, separados por espaços, os n elementos de A; para cada valor v em A, tem-se que 1 ≤ v ≤ 1.000.000.
+Output
+
+Imprima quantos subconjuntos A' de A satisfazem a condição do enunciado.
