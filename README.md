@@ -1,4 +1,4 @@
-Algoritmos - CIn/UFPE
+# Algoritmos - CIn/UFPE
 
 Este repositório contém minhas soluções de desafios de programação com implementações de algoritmos estudados durante a graduação no CIn/UFPE.
 
