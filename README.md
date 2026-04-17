@@ -18,11 +18,6 @@ Principais temas:
 - Backtracking
 - Programação Dinâmica
 
-### Algoritmos da Faculdade
-Implementações feitas nas disciplinas:
-- Estruturas de dados
-- Algoritmos
-
 ## Linguagem utilizadas
 - C++
 
